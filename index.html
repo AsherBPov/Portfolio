@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asher Brown | IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="logo">Asher Brown<span class="accent">.</span></div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">IT Major & Creative Technologist</span>
+          <h1>Hi, I'm Asher Brown — building polished experiences with code.</h1>
+          <p>I am an IT major with completed major projects in web development, automation, and data tools. My work blends modern motion, clean interfaces, and practical performance.</p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="#resume">Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-panel reveal">
+          <div class="panel-card">
+            <div class="panel-icon">💻</div>
+            <h2>GitHub Ready</h2>
+            <p>Link your GitHub account and showcase repository code, projects, and technical contributions.</p>
+            <a class="panel-link" href="https://github.com/AsherbPov" target="_blank" rel="noreferrer">github.com/AsherbPov</a>
+          </div>
+          <div class="panel-stats">
+            <div class="stat">
+              <span>Major</span>
+              <strong>Information Technology</strong>
+            </div>
+            <div class="stat">
+              <span>Experience</span>
+              <strong>Major Projects Completed</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-header reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Focused on practical systems, polished UX, and ongoing learning.</h2>
+        </div>
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <p>I am currently pursuing a degree in Information Technology. My strengths include project planning, technology integration, and designing intuitive web interfaces with a modern brown/cream look.</p>
+            <p>With a mix of JavaScript, HTML, and CSS, I build responsive websites, interactive dashboards, and accessible user experiences. I also work with version control, GitHub, and collaboration workflows.</p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <h3>Core Focus</h3>
+              <p>IT systems, web development, user-centered design, automation, and cross-platform compatibility.</p>
+            </div>
+            <div class="highlight-card">
+              <h3>Skills</h3>
+              <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Responsive design</li>
+                <li>Git + GitHub</li>
+                <li>Project documentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-header reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Major work that demonstrates real solutions and strong execution.</h2>
+        </div>
+        <div class="project-grid reveal">
+          <article class="project-card">
+            <span class="project-tag">Web App</span>
+            <h3>Interactive Client Portal</h3>
+            <p>A polished portal prototype built with responsive layout, animated transitions, and user-friendly navigation for IT service workflows.</p>
+            <a href="https://github.com/AsherbPov" target="_blank" rel="noreferrer">View on GitHub</a>
+          </article>
+          <article class="project-card">
+            <span class="project-tag">Automation</span>
+            <h3>Process Tracker Dashboard</h3>
+            <p>A dashboard concept designed to help teams track IT tickets, status updates, and key performance indicators with clean visual structure.</p>
+            <a href="https://github.com/AsherbPov" target="_blank" rel="noreferrer">View on GitHub</a>
+          </article>
+          <article class="project-card">
+            <span class="project-tag">Website</span>
+            <h3>Forsyth Senior Service</h3>
+            <p>A live Wix site that highlights your IT and service work through a polished web presence for senior services.</p>
+            <a href="https://ashersbrown.wixsite.com/forsyth-senior-servi" target="_blank" rel="noreferrer">Visit the site</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section resume" id="resume">
+        <div class="section-header reveal">
+          <p class="eyebrow">Resume</p>
+          <h2>Share your resume, and keep your profile polished.</h2>
+        </div>
+        <div class="resume-content reveal">
+          <div class="resume-copy">
+            <p>Upload your resume here to preview the filename and make sure your application materials are easy to access. Replace <code>resume.pdf</code> with your actual resume file in the project root when deploying.</p>
+            <div class="resume-actions">
+              <label class="upload-button">
+                Choose resume file
+                <input id="resumeUpload" type="file" accept="application/pdf,application/msword,.doc,.docx">
+              </label>
+              <a class="button button-secondary" id="downloadResume" href="resume.pdf" download>Download Resume</a>
+            </div>
+            <p class="file-preview" id="filePreview">No file selected yet.</p>
+          </div>
+          <div class="resume-notes">
+            <h3>Pro tip</h3>
+            <ul>
+              <li>Use a PDF resume for best presentation.</li>
+              <li>Add your major, certifications, and major project highlights.</li>
+              <li>Keep your GitHub profile linked and up to date.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-header reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's connect and bring your next IT project to life.</h2>
+        </div>
+        <div class="contact-grid reveal">
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p>ashersbrown@gmail.com</p>
+          </div>
+          <div class="contact-card">
+            <h3>GitHub</h3>
+            <p><a href="https://github.com/AsherbPov" target="_blank" rel="noreferrer">github.com/AsherbPov</a></p>
+          </div>
+          <div class="contact-card">
+            <h3>Future ideas</h3>
+            <p>Consider adding testimonials, case studies, or an updated blog to highlight your learning progress.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Designed for an IT major who values modern visuals and clear career storytelling.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
